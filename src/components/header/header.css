@@ -1,0 +1,29 @@
+.header-container{
+    background-color: #fff;
+    border-bottom: 1px solid lightgray ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+.header-responsive-top{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 60px;
+    background-color: rgb(235, 28, 28);
+    margin-bottom: 10px;
+    padding: 0 20px;
+
+}
+.header-responsive{
+    display: none;
+}
+@media (max-width:900px){
+    .header-responsive{
+        display: block;
+    }
+    .header-container{
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.header-icons-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.header-icons-card:hover{
+    color: #008CFF;
+    cursor: pointer;
+}
+
+
+.header-cantainer {
+    display: flex;
+}
+.span{
+    font-size: 30px;
+}
+.header-icons-button{
+    background-color: transparent;
+    box-shadow: none;
+    color: black;
+}
+.header-icons-button:hover{
+    background-color: transparent;
+    box-shadow: none;
+}

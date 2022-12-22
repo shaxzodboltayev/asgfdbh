@@ -1,0 +1,19 @@
+.header-navbar ul {
+ margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+ padding: 10px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header-navbar ul li {
+ list-style: none;
+}
+.header-navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: 22px ;
+}
